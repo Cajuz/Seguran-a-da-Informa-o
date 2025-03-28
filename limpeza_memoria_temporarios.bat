@@ -28,7 +28,7 @@ del /s /f /q C:\Windows\Temp\*.* >nul 2>&1
 echo Limpando Temp do usuário...
 del /s /f /q %temp%\*.* >nul 2>&1
 rd /s /q %temp% >nul 2>&1
-md %temp%
+
 
 :: Limpando cache do Explorer
 echo Limpando cache do Explorer...
