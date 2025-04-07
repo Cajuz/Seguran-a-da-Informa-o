@@ -4,7 +4,7 @@ Windows Registry Editor Version 5.00
 [HKEY_CURRENT_USER\Control Panel\Desktop]
 "UserPreferencesMask"=hex:90,12,03,80,10,00,00,00
  
-# 2. Walpaper otmizado para tempo de resposta mais rápido
+# 2. Troca de walpaper otmizado para tempo de resposta mais rápido
 [HKEY_CURRENT_USER\Control Panel\Desktop]
 "Wallpaper"="C:\Users\Laboratorio-Info\Documents\receba.png"
  
@@ -19,3 +19,7 @@ Windows Registry Editor Version 5.00
 # 5. Aumentar velocidade de desligamento do sistema
 [HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control]
 "WaitToKillServiceTimeout"="2000"
+
+# 6. Aumentar tempo de resposta do menu
+[HKEY_CURRENT_USER\Control Panel\Desktop]
+"MenuShowDelay"="0"
